@@ -4,7 +4,7 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import ParseMode
 from aiogram.utils import executor
 
-API_TOKEN = '6809237237:AAFPYLUIDTk6yKFQkiJq4oxIHUaGrQCo6do'
+API_TOKEN = 'TOKEN'
 
 movies = {
     "Fight club": "https://docs.google.com/document/d/13VL92vH0LI8nDqv4oDpw3NWX8g6RSrE_y1V4zfRJV1w/edit",
