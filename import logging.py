@@ -85,7 +85,7 @@ async def list_ratings_reviews(message: types.Message):
 
 @dp.message_handler(commands=['end'])
 async def end_interaction(message: types.Message):
-    await message.reply("Спасибі за використання бота! Мирного рішення не буде. Ось список людей:\n\n" + "\n".join(people))
+    await message.reply("Спасибі за використання бота від команди 'Мирного рішення не буде' Ось список людей:\n\n" + "\n".join(people))
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
